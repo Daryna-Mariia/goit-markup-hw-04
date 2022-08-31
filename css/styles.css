@@ -185,6 +185,8 @@ color: var(--additional-text-color);
     background-color:var(--color-background-for-img);
     min-height: 600px;
     max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
     background-image:linear-gradient( to right,
     rgba(47, 48, 58, 0.4),
     rgba(47, 48, 58, 0.4)
@@ -336,7 +338,6 @@ margin-bottom: 50px;
     padding-bottom: 30px;
     text-align: center;
     white-space: nowrap;
-    width: 264px;
     }
 
 .employee-name{
@@ -380,6 +381,10 @@ color: var(--additional-text-color);
 margin-bottom: 16px;
 }
 
+.clients-list{
+    width: 170px;
+    height: 92px;
+}
 
 .clients-items{
     display: flex;
@@ -391,20 +396,16 @@ margin-bottom: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 170px;
-    height: 92px;
+    width: 100%;
+    height: 100%;
     border: 1px solid var(--color-fill-icon);
     background-color: var(--secondary-text-color);
     border-radius: 4px;
 }
 
 .clients-link-item{
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 170px;
-    height: 92px;
+    width: 106px;
+    height: 60px;
     fill: var(--color-fill-icon);
     }
     
@@ -506,7 +507,6 @@ margin-bottom: 20px;
     display: flex;
     justify-content: center;
     column-gap: 10px;
-    margin-left: 70px;
 }
 .footer-link-item{
     display: flex;
